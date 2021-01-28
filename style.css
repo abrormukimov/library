@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.nav {
+    height: 50px;
+    background-color: #999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-book-parent, .logo {
+    width: fit-content;
+    height: fit-content;
+    margin: 0 15px;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.add-book {
+    color: #fff;
+    border: .5px solid #fff;
+    padding: 4px 7px;
+    text-align: center;
+    background-color: none;
+    font-size: 22px;
+    transition: cubic-bezier(1, 0, 0, 1) .2s;
+}
+
+.add-book:hover {
+    background-color: #000;
+    border: none;
+    cursor: pointer;
+}
+
+.sec {
+    width: 700px;
+    border-left: double;
+    border-right: double;
+    height: 900px;
+    margin: 0 auto;
+}
+
