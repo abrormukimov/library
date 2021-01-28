@@ -1,10 +1,5 @@
 # R Lib
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-
 <br />
 <p align="center">
   <a href="https://github.com/abrormukimov/library">
